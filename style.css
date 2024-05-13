@@ -61,6 +61,13 @@ a{
     margin:0;
 }
 
+/* Modify the profile image size */
+.section-1 img.profile-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* This maintains aspect ratio */
+    border-radius: 50%; /* Optional: Adds a circular border to the image */
+}
+
 .section-2 a{
     display: block;
     padding: 5px;
